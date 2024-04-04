@@ -1,0 +1,14 @@
+@import "mvp";
+@import "generals/generals";
+
+.main-nav {
+  background-color: red;
+  padding: 2rem 3rem;
+  &__list {
+    &__item {
+      &__link {
+ padding: 1px;
+      }
+    }
+  }
+}
