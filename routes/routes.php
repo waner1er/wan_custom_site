@@ -1,12 +1,9 @@
 <?php
 
-require_once __DIR__ . '/../Controllers/ProductController.php';
-require_once __DIR__ . '/../Classes/Product.php';
-require_once __DIR__ . '/../Controllers/HomeController.php';
-
 use Classes\Product;
 use Controllers\HomeController;
 use Controllers\ProductController;
+
 
 $request = rtrim($_SERVER['REQUEST_URI'], '/');
 $method = $_SERVER['REQUEST_METHOD'];

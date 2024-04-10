@@ -1,0 +1,19 @@
+{
+    "name": "rivet/wan_custom_site",
+    "description": "my custom php project",
+    "autoload": {
+        "psr-4": {
+            "Rivet\\WanCustomSite\\": "/",
+            "Controllers\\": "Controllers/",
+            "Classes\\": "Classes/",
+            "Database\\": "Database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "waner1er",
+            "email": "riveterwan8@gmail.com"
+        }
+    ],
+    "require": {}
+}

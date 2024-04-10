@@ -1,4 +1,6 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
+
 if (!defined('DB_TYPE')) {
     define('DB_TYPE', 'sqlite');
 }

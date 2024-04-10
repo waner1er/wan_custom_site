@@ -2,11 +2,7 @@
 
 namespace Controllers;
 
-require_once __DIR__ . '/../Classes/Product.php';
-require_once __DIR__ . '/../Classes/Database.php';
-use PDO;
-use Classes\Product;
-use Classes\Database;
+
 
 class HomeController
 {

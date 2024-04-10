@@ -2,8 +2,6 @@
 
 namespace Classes;
 
-require_once __DIR__ . '/Database.php';
-
 use PDO;
 use Classes\Database;
 
